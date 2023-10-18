@@ -237,7 +237,7 @@
 }
 
 .frame .text-wrapper-2 {
-  -webkit-text-stroke: 0.63px #000000;
+  /* -webkit-text-stroke: 0.63px #000000; */
   color: #ffffff33;
   font-family: "Cambon-ExtraBold", Helvetica;
   font-size: 30px;
@@ -299,7 +299,7 @@
 }
 
 .frame .text-wrapper-5 {
-  -webkit-text-stroke: 0.63px #000000;
+  /* -webkit-text-stroke: 0.63px #000000; */
   color: #ffffff33;
   font-family: "Cambon-ExtraBold", Helvetica;
   font-size: 30px;
@@ -349,7 +349,7 @@
 }
 
 .frame .text-wrapper-6 {
-  -webkit-text-stroke: 0.63px #000000;
+  /* -webkit-text-stroke: 0.63px #000000; */
   color: #ffffff33;
   font-family: "Cambon-ExtraBold", Helvetica;
   font-size: 30px;
