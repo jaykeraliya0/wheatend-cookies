@@ -22,7 +22,7 @@ import Button from "./Button.vue";
 
       <div class="card">
         <div class="fg">
-          <img src="../images/p-2.png" alt="" />
+          <img src="../images/p1.1.png" alt="" />
           <img class="plat" src="../images/cookies-plat.svg" alt="" />
         </div>
         <div class="bg bg-2"><p>Test it!</p></div>
@@ -30,7 +30,7 @@ import Button from "./Button.vue";
 
       <div class="card">
         <div class="fg">
-          <img src="../images/p-3.png" alt="" />
+          <img src="../images/p1.2.png" alt="" />
           <img class="plat" src="../images/cookies-plat.svg" alt="" />
         </div>
         <div class="bg bg-3"><p>Test it!</p></div>
