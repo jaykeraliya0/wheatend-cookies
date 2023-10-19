@@ -12,35 +12,48 @@ import Button from "./Button.vue";
       </div>
     </div>
     <div class="main">
-      <div class="card">
-        <div class="fg">
-          <img src="../images/cookie-pack-1.png" alt="" />
-          <img class="plat" src="../images/cookies-plat.svg" alt="" />
+      <div class="card-wrapper">
+        <div class="card">
+          <div class="fg">
+            <img src="../images/cookie-pack-1.png" alt="" />
+            <img class="plat" src="../images/cookies-plat.svg" alt="" />
+          </div>
+          <div class="bg bg-1"><p>Test it!</p></div>
         </div>
-        <div class="bg bg-1"><p>Test it!</p></div>
+        <p class="category">Category #1</p>
       </div>
 
-      <div class="card">
-        <div class="fg">
-          <img src="../images/p1.1.png" alt="" />
-          <img class="plat" src="../images/cookies-plat.svg" alt="" />
+      <div class="card-wrapper">
+        <div class="card">
+          <div class="fg">
+            <img src="../images/p1.1.png" alt="" />
+            <img class="plat" src="../images/cookies-plat.svg" alt="" />
+          </div>
+          <div class="bg bg-2"><p>Test it!</p></div>
         </div>
-        <div class="bg bg-2"><p>Test it!</p></div>
+        <p class="category">Category #2</p>
       </div>
 
-      <div class="card">
-        <div class="fg">
-          <img src="../images/p1.2.png" alt="" />
-          <img class="plat" src="../images/cookies-plat.svg" alt="" />
+      <div class="card-wrapper">
+        <div class="card">
+          <div class="fg">
+            <img src="../images/p1.2.png" alt="" />
+            <img class="plat" src="../images/cookies-plat.svg" alt="" />
+          </div>
+          <div class="bg bg-3"><p>Test it!</p></div>
         </div>
-        <div class="bg bg-3"><p>Test it!</p></div>
+        <p class="category">Category #3</p>
       </div>
-      <div class="card">
-        <div class="fg">
-          <img src="../images/cookie-pack-1.png" alt="" />
-          <img class="plat" src="../images/cookies-plat.svg" alt="" />
+
+      <div class="card-wrapper">
+        <div class="card">
+          <div class="fg">
+            <img src="../images/cookie-pack-1.png" alt="" />
+            <img class="plat" src="../images/cookies-plat.svg" alt="" />
+          </div>
+          <div class="bg bg-1"><p>Test it!</p></div>
         </div>
-        <div class="bg bg-1"><p>Test it!</p></div>
+        <p class="category">Category #1</p>
       </div>
     </div>
   </div>
@@ -84,6 +97,17 @@ import Button from "./Button.vue";
   letter-spacing: -0.96px;
   opacity: 0.6;
 }
+.category {
+  color: var(--Secondry, #182933);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 180% */
+  letter-spacing: -0.8px;
+  opacity: 0.6;
+}
 .main {
   display: flex;
   align-items: flex-start;
@@ -100,6 +124,12 @@ import Button from "./Button.vue";
   width: 100%;
   height: 100%;
   border-radius: 24px;
+}
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
 }
 .card .plat {
   position: absolute;

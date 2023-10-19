@@ -114,7 +114,8 @@
   flex-direction: column;
   gap: 40px;
   position: relative;
-  width: 1440px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .frame .div {
