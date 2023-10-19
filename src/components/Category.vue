@@ -5,7 +5,7 @@ import Button from "./Button.vue";
 <template>
   <div class="wrapper">
     <div class="title">
-      <h1>Category's</h1>
+      <h1><b>Category's</b></h1>
       <p>Shop by Category</p>
       <div style="margin-top: 28px">
         <Button />

@@ -23,7 +23,7 @@
 <template>
   <div className="frame">
     <div className="div">
-      <div className="text-wrapper">Our Love’s</div>
+      <div className="text-wrapper"><b>Our Love’s</b></div>
       <p className="p">
         From the Harmonious union between a mixes of cereals flours and legumes
         flours, a new line of testy specialitiesrich in fiber and vegetable
@@ -50,7 +50,7 @@
               <div className="text-wrapper-2">Taste it!</div>
             </div>
             <div className="div-6">
-              <div className="text-wrapper-3">Cookies</div>
+              <div className="text-wrapper-3"><b>Cookies</b></div>
               <div className="text-wrapper-4">Creamy Butter Cookies</div>
             </div>
           </div>
@@ -65,7 +65,7 @@
               <div className="text-wrapper-5">Love it!</div>
             </div>
             <div className="div-6">
-              <div className="text-wrapper-3">Kesar Badam</div>
+              <div className="text-wrapper-3"><b>Kesar Badam</b></div>
               <div className="text-wrapper-4">Creamy Butter Cookies</div>
             </div>
           </div>
@@ -82,7 +82,7 @@
               <div className="text-wrapper-2">Taste it!</div>
             </div>
             <div className="div-6">
-              <div className="text-wrapper-3">Almond</div>
+              <div className="text-wrapper-3"><b>Almond</b></div>
               <div className="text-wrapper-4">Creamy Butter Cookies</div>
             </div>
           </div>
@@ -97,7 +97,7 @@
               <div className="text-wrapper-6">It Heaven!</div>
             </div>
             <div className="div-6">
-              <div className="text-wrapper-3">Pistachio</div>
+              <div className="text-wrapper-3"><b>Pistachio</b></div>
               <div className="text-wrapper-4">Creamy Butter Cookies</div>
             </div>
           </div>

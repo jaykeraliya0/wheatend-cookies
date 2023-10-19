@@ -2,7 +2,7 @@
   <div class="wrapper">
     <div class="frame">
       <div>
-        <h1 class="title">About us</h1>
+        <h1 class="title"><b>About us</b></h1>
         <p class="description">
           From the Harmonious union between a mixes of cereals flours and
           legumes flours, a new line of testy specialitiesrich in fiber and
