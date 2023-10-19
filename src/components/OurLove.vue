@@ -1,25 +1,5 @@
 <script setup></script>
 
-<!-- <template>
-  <div class="wrapper">
-  
-    <div class="titleWrapper">
-      <h1 class="title">Our Love's</h1>
-      <div class="descriptionWrapper">
-        <p class="description">
-          From the Harmonious union between a mixes of cereals flours and
-          legumes flours, a new line of testy specialitiesrich in fiber and
-          vegetable proteins is born.
-        </p>
-      </div>
-    </div>
-    
-    <div class="cardWrapper">
-      <div class="flavours"></div>
-    </div>
-  </div>
-</template> -->
-
 <template>
   <div className="frame">
     <div className="div">
@@ -151,7 +131,8 @@
   opacity: 0.6;
   position: relative;
   text-align: center;
-  width: 592px;
+  max-width: 592px;
+  width: 100%;
 }
 
 .frame .div-2 {
@@ -165,7 +146,8 @@
 .frame .img {
   height: 382px;
   position: relative;
-  width: 387px;
+  max-width: 387px;
+  width: 100%;
 }
 
 .frame .div-3 {
@@ -182,7 +164,8 @@
   flex-direction: column;
   gap: 20px;
   position: relative;
-  width: 388px;
+  max-width: 388px;
+  width: 100%;
 }
 
 .frame .div-5 {
@@ -191,7 +174,8 @@
   height: 181px;
   overflow: hidden;
   position: relative;
-  width: 388px;
+  max-width: 388px;
+  width: 100%;
 }
 
 .frame .overlap-group {
@@ -199,7 +183,8 @@
   left: 0;
   position: absolute;
   top: 0;
-  width: 136px;
+  max-width: 136px;
+  width: 100%;
 }
 
 .frame .rectangle {
@@ -209,7 +194,8 @@
   left: 0;
   position: absolute;
   top: 0;
-  width: 100px;
+  max-width: 100px;
+  width: 100%;
 }
 
 .frame .element-s-qm-PC {
@@ -217,7 +203,8 @@
   left: 50px;
   position: absolute;
   top: 21px;
-  width: 86px;
+  max-width: 86px;
+  width: 100%;
 }
 
 .frame .text-wrapper-2 {
@@ -279,7 +266,8 @@
   left: 0;
   position: absolute;
   top: 0;
-  width: 100px;
+  max-width: 100px;
+  width: 100%;
 }
 
 .frame .text-wrapper-5 {
@@ -303,7 +291,8 @@
   left: 0;
   position: absolute;
   top: 0;
-  width: 100px;
+  max-width: 100px;
+  width: 100%;
 }
 
 .frame .overlap {
@@ -311,7 +300,8 @@
   left: 0;
   position: absolute;
   top: 0;
-  width: 139px;
+  max-width: 139px;
+  width: 100%;
 }
 
 .frame .rectangle-4 {
@@ -321,7 +311,8 @@
   left: 0;
   position: absolute;
   top: 0;
-  width: 100px;
+  max-width: 100px;
+  width: 100%;
 }
 
 .frame .element-edr-s-qm-z-PC {
@@ -329,7 +320,8 @@
   left: 53px;
   position: absolute;
   top: 28px;
-  width: 86px;
+  max-width: 86px;
+  width: 100%;
 }
 
 .frame .text-wrapper-6 {
@@ -348,23 +340,11 @@
 
 .wrapper {
   display: flex;
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   flex-direction: column;
   align-items: center;
   gap: 40px;
-}
-.title {
-  text-align: center;
-  font-family: Cambon;
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 90px; /* 150% */
-  letter-spacing: -1.2px;
-  background: linear-gradient(122deg, #393230 13.07%, #f99e58 85.97%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .descriptionWrapper {
@@ -396,6 +376,50 @@
   height: 382px;
   border-radius: 24px;
   background: #fff;
+}
+@media (max-width: 1440px) {
+  .div-2 {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .div-3 {
+    width: 100%;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+  }
+  .div-4 {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .div-5 {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .div-3 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .div-4 {
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 </style>
 

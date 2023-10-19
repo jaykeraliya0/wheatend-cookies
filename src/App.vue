@@ -14,7 +14,7 @@ import FooterBanner from "./components/FooterBanner.vue";
 <template>
   <Hero />
   <Category />
-  <!-- <OurLove /> -->
+  <OurLove />
   <Offer />
   <Spotlight />
   <About />
