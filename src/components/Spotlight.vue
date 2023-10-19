@@ -276,6 +276,7 @@
   }
   .btnc button {
     padding: 8px 10px;
+    width: 100%;
   }
   .vm {
     width: 100%;
