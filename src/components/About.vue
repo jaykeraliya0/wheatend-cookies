@@ -24,7 +24,7 @@ export default {
 
 <style scoped>
 .wrapper {
-  margin-top: 2rem;
+  margin-top: 7rem;
 }
 .title {
   text-align: center;

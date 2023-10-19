@@ -23,7 +23,7 @@
 <template>
   <div className="frame">
     <div className="div">
-      <div className="text-wrapper"><b>Our Love’s</b></div>
+      <div className="text-wrapper"><b>Our Love's</b></div>
       <p className="p">
         From the Harmonious union between a mixes of cereals flours and legumes
         flours, a new line of testy specialitiesrich in fiber and vegetable
@@ -117,7 +117,19 @@
   max-width: 1440px;
   margin: 0 auto;
 }
-
+.text-wrapper {
+  text-align: center;
+  font-family: Cambon;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90px; /* 150% */
+  letter-spacing: -1.2px;
+  background: linear-gradient(122deg, #393230 13.07%, #f99e58 85.97%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .frame .div {
   align-items: center;
   align-self: stretch;
@@ -127,35 +139,6 @@
   gap: 10px;
   position: relative;
   width: 100%;
-}
-
-.frame .text-wrapper {
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 0.5px transparent;
-  align-self: stretch;
-  background: linear-gradient(
-    180deg,
-    rgb(56.62, 50.24, 47.51) 0%,
-    rgb(249, 158, 88) 100%
-  );
-  background-clip: text;
-  background-image: linear-gradient(
-    180deg,
-    rgb(56.62, 50.24, 47.51) 0%,
-    rgb(249, 158, 88) 100%
-  );
-  color: transparent;
-  font-family: "Cambon-Regular", Helvetica;
-  font-size: 60px;
-  font-weight: 400;
-  letter-spacing: -1.2px;
-  line-height: 90px;
-  margin-left: -0.5px;
-  margin-top: -1.5px;
-  position: relative;
-  text-align: center;
-  text-fill-color: transparent;
 }
 
 .frame .p {
