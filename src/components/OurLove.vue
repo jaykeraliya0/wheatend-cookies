@@ -174,8 +174,8 @@
   height: 181px;
   overflow: hidden;
   position: relative;
-  max-width: 388px;
-  width: 100%;
+  width: 388px;
+  /* width: 100%; */
 }
 
 .frame .overlap-group {
@@ -242,7 +242,7 @@
   position: relative;
   text-align: center;
   white-space: nowrap;
-  width: fit-content;
+  /* width: fit-content; */
 }
 
 .frame .text-wrapper-4 {
@@ -256,7 +256,7 @@
   position: relative;
   text-align: center;
   white-space: nowrap;
-  width: fit-content;
+  /* width: fit-content; */
 }
 
 .frame .rectangle-2 {
