@@ -189,8 +189,34 @@ export default {
 }
 @media (max-width: 768px) {
   .frame {
-    display: flex;
     flex-direction: column;
+    width: 100%;
+  }
+  .frame .div {
+    flex-direction: column;
+    width: 100%;
+  }
+  .frame .div-2 {
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .frame .div-3 {
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .frame .img-2 {
+    margin: 0 auto;
+  }
+  .frame .text-wrapper-2 {
+    margin: 0 auto;
+  }
+  .frame .text-wrapper-3 {
+    margin: 0 auto;
+  }
+  .frame .text-wrapper-4 {
+    margin: 0 auto;
   }
 }
 </style>

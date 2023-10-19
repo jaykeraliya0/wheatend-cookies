@@ -22,7 +22,7 @@ import FooterBanner from "./components/FooterBanner.vue";
   <Spotlight />
   <!-- <About /> -->
   <!-- <OurProducts /> -->
-  <!-- <Featured /> -->
+  <Featured />
   <!-- <FooterBanner /> -->
 </template>
 
