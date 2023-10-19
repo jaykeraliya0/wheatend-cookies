@@ -1,7 +1,6 @@
 <script setup>
 import OurLove from "./components/OurLove.vue";
 import Hero from "./components/Hero.vue";
-import Frame4 from "./components/HomeAboutText.vue";
 import Category from "./components/Category.vue";
 import Offer from "./components/Offer.vue";
 import OurProducts from "./components/OurProducts.vue";
@@ -20,7 +19,7 @@ import FooterBanner from "./components/FooterBanner.vue";
   <About />
   <OurProducts />
   <Featured />
-  <!-- <FooterBanner /> -->
+  <FooterBanner />
 </template>
 
 <style scoped></style>

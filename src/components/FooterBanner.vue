@@ -2,6 +2,7 @@
   <div class="wrapper">
     <div class="footer-banner">
       <img src="../images/footer-banner.png" alt="" />
+      <img class="mini" src="../images/footer-banner-mini.png" alt="" />
       <div class="frame">
         <div class="text">
           <h1>
@@ -35,6 +36,10 @@
     rgba(0, 0, 0, 1) 35%,
     rgba(0, 0, 0, 1) 100%
   );
+  padding: 3rem;
+}
+.mini {
+  display: none;
 }
 .footer-banner {
   position: relative;
@@ -114,7 +119,7 @@
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px;
 }
 .footer-banner form input::placeholder {
   color: #b4b4b4;
@@ -141,5 +146,35 @@
   font-style: normal;
   font-weight: 500;
   line-height: 20px; /* 142.857% */
+}
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 1.5rem;
+  }
+  .frame {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    padding: 0.5rem;
+  }
+  .footer-banner {
+    height: 600px;
+  }
+  .frame {
+    justify-content: start;
+  }
+  .mini {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+  }
 }
 </style>
