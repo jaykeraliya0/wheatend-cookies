@@ -65,7 +65,8 @@ import Button from "./Button.vue";
   padding: 40px 0px;
   align-items: center;
   gap: 122px;
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   margin: 50px auto;
 }
 .title {
@@ -176,6 +177,36 @@ import Button from "./Button.vue";
 .bg-3 {
   background: #3c2c1b;
   box-shadow: 0px 4px 34px 20px rgba(29, 76, 103, 0.25) inset;
+}
+@media (max-width: 1400px) {
+  .wrapper {
+    flex-direction: column;
+    gap: 22px;
+  }
+  .title {
+    align-items: center;
+  }
+  .main {
+    align-items: center;
+  }
+}
+@media (max-width: 967px) {
+  .wrapper {
+    max-width: 100vw;
+    margin: 0;
+    overflow: hidden;
+  }
+  .title {
+    width: 90%;
+  }
+  .main {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 22px;
+  }
+  .card-wrapper {
+    width: calc(50%);
+  }
 }
 </style>
 
