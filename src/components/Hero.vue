@@ -18,7 +18,7 @@ import Button from "./Button.vue";
           <Button />
         </div>
       </div>
-      <div class="carousel-item active">
+      <div class="carousel-item">
         <img
           src="../images/hero-banner.png"
           class="d-block w-100 carousel-item-img"

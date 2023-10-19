@@ -2,20 +2,6 @@
 
 <template>
   <div class="wrapper">
-    <div class="bg">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="1440"
-        height="643"
-        viewBox="0 0 1440 643"
-        fill="none"
-      >
-        <path
-          d="M0 156.5C457.45 -51.5763 982.55 -51.5763 1440 156.5V642.5H0L0 156.5Z"
-          fill="#1C0B03"
-        />
-      </svg>
-    </div>
     <div class="title">
       <h1>Limited time <span> Offer's </span></h1>
       <div class="description">
@@ -25,30 +11,35 @@
           vegetable proteins is born.
         </p>
       </div>
-      <!-- <div class="time">
+      <div class="time">
         05
         <span> : </span>
         45
         <span> : </span>
         59
-      </div> -->
+      </div>
     </div>
-    <div id="carouselExample" class="carousel slide">
+    <div id="carouselExample2" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="../images/offer.png" class="d-block w-100" alt="../images/offer.png" />
+          <img
+            src="../images/offer.png"
+            class="d-block w-100 carousel-item-img"
+            alt="../images/offer.png"
+          />
         </div>
         <div class="carousel-item">
-          <img src="../images/hero-banner.png" class="d-block w-100" alt="../images/offer.png" />
-        </div>
-        <div class="carousel-item">
-          <img src="../images/love-main.png" class="d-block w-100" alt="../images/offer.png" />
+          <img
+            src="../images/offer.png"
+            class="d-block w-100 carousel-item-img"
+            alt="../images/offer.png"
+          />
         </div>
       </div>
       <button
         class="carousel-control-prev"
         type="button"
-        data-bs-target="#carouselExample"
+        data-bs-target="#carouselExample2"
         data-bs-slide="prev"
       >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -57,7 +48,7 @@
       <button
         class="carousel-control-next"
         type="button"
-        data-bs-target="#carouselExample"
+        data-bs-target="#carouselExample2"
         data-bs-slide="next"
       >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -69,27 +60,29 @@
 
 <style scoped>
 .wrapper {
-  position: relative;
   width: 100%;
-  height: 837px;
-  flex-shrink: 0;
-  /* background-color: red; */
-}
-.bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-.bg svg {
-  width: 100%;
-  height: 100%;
-  z-index: -10000;
+  margin: 7rem auto;
+  padding: 5rem;
+  background: #1c0b03;
+  background: linear-gradient(
+    to bottom,
+    #1c0b03 0%,
+    #1c0b03 63%,
+    #fff 63%,
+    #fff 100%
+  );
+  color: #fff;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 .title {
+  width: 100%;
+  max-width: 600px;
   margin: 0 auto;
-  position: relative;
+  text-align: center;
+}
+.title h1 {
   color: #fff;
   text-align: center;
   font-family: Cambon;
@@ -97,11 +90,8 @@
   font-style: normal;
   font-weight: 250;
   line-height: 46px; /* 104.545% */
-  max-width: 500px;
-  padding-top: 12rem;
-  z-index: 10000;
 }
-.title span {
+.title h1 span {
   color: #ffd600;
   text-align: center;
   font-family: Cambon;
@@ -111,6 +101,11 @@
   line-height: 46px; /* 85.185% */
 }
 .description {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 2rem;
   color: var(--White, #fff);
   text-align: center;
   font-family: Inter;
@@ -131,20 +126,12 @@
   line-height: normal;
   letter-spacing: -1.2px;
 }
-.time span {
-  color: #fff;
-  text-align: center;
-  font-family: Falidasi Triasie;
-  font-size: 50px;
-  font-style: italic;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: -1.2px;
-}
 .carousel {
-  margin: 7rem auto;
+  margin: 5rem auto;
+  z-index: 10;
   display: flex;
-  width: 793px !important;
+  max-width: 793px !important;
+  width: 100%;
   height: 365px;
   padding-right: 0px;
   align-items: center;
@@ -164,6 +151,7 @@
 }
 .carousel-item-img {
   width: 100%;
+  /* max-height: 450px; */
   height: 100%;
   object-fit: cover;
   border-radius: 24px;
@@ -178,6 +166,7 @@
   flex-shrink: 0;
   border-radius: 86px;
   background: linear-gradient(0deg, #1c0b03 0%, #1c0b03 100%), #fff;
+  box-shadow: 0px 4px 44px 0px rgba(0, 0, 0, 0.06);
   opacity: 1;
 }
 .carousel-control-prev {
@@ -185,6 +174,58 @@
 }
 .carousel-control-next {
   right: -43px;
+}
+@media (max-width: 768px) {
+  .carousel {
+    margin: 5rem auto;
+    z-index: 10;
+    display: flex;
+    max-width: 793px !important;
+    width: 100%;
+    height: 365px;
+    padding-right: 0px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 24px;
+    max-height: 210px;
+    box-shadow: 0px 4px 44px 0px rgba(0, 0, 0, 0.06);
+  }
+  .carousel-inner {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+  }
+  .carousel-item {
+    width: 100%;
+    height: 100%;
+  }
+  .carousel-item-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 24px;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 46px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 46px;
+    background: linear-gradient(0deg, #1c0b03 0%, #1c0b03 100%), #fff;
+    box-shadow: 0px 4px 44px 0px rgba(0, 0, 0, 0.06);
+    opacity: 1;
+  }
+  .carousel-control-prev {
+    left: -21px;
+  }
+  .carousel-control-next {
+    right: -21px;
+  }
 }
 </style>
 
