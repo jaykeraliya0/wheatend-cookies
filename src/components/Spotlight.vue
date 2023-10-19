@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <div>
-      <h1 class="title">Spotlight</h1>
+      <h1 class="title"><b>Spotlight</b></h1>
       <p class="description">
         From the Harmonious union between a mixes of cereals flours and legumes
         flours, a new line of testy specialitiesrich in fiber and vegetable
@@ -17,9 +17,11 @@
           <img src="../images/pinapple.png" alt="" />
           <div class="data">
             <div class="name">
-              <p>Pineapple Cookie</p>
-              <p class="price">₹299.00 <span>₹559.00</span></p>
-            </div>
+              <b>
+                <p>Pineapple Cookie</p>
+                <p class="price">₹299.00 <span>₹559.00</span></p>
+              </b>
+              </div>
             <div class="btn">
               <button>Buy Now</button>
             </div>
