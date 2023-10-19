@@ -187,4 +187,10 @@ export default {
   white-space: nowrap;
   width: fit-content;
 }
+@media (max-width: 768px) {
+  .frame {
+    display: flex;
+    flex-direction: column;
+  }
+}
 </style>
