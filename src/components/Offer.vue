@@ -25,13 +25,13 @@
           vegetable proteins is born.
         </p>
       </div>
-      <div class="time">
+      <!-- <div class="time">
         05
         <span> : </span>
         45
         <span> : </span>
         59
-      </div>
+      </div> -->
     </div>
     <div id="carouselExample" class="carousel slide">
       <div class="carousel-inner">
