@@ -13,31 +13,30 @@
     <div class="img">
       <img id="web" src="../images/about.svg" alt="" />
       <div id="mobile">
-        <img src="../images/a-1.svg" alt="">
+        <img src="../images/a-1.svg" alt="" />
         <div>
-        <h1 class="title"><b>Tasty</b></h1>
-        <p class="description">
-          Nothing the copy said could convince her and so it didn’t take long.
-        </p>
-      </div>
-        <br>
-        <img src="../images/a-2.svg" alt="">
+          <h1 class="title"><b>Tasty</b></h1>
+          <p class="description">
+            Nothing the copy said could convince her and so it didn’t take long.
+          </p>
+        </div>
+        <br />
+        <img src="../images/a-2.svg" alt="" />
         <div>
-        <h1 class="title"><b>Natural</b></h1>
-        <p class="description">
-          Nothing the copy said could convince her and so it didn’t take long.
-        </p>
-      </div>
-        <br>
-        <img src="../images/a-3.svg" alt="">
+          <h1 class="title"><b>Natural</b></h1>
+          <p class="description">
+            Nothing the copy said could convince her and so it didn’t take long.
+          </p>
+        </div>
+        <br />
+        <img src="../images/a-3.svg" alt="" />
         <div>
-        <h1 class="title"><b>Fresh</b></h1>
-        <p class="description">
-          Nothing the copy said could convince her and so it didn’t take long.
-        </p>
+          <h1 class="title"><b>Fresh</b></h1>
+          <p class="description">
+            Nothing the copy said could convince her and so it didn’t take long.
+          </p>
+        </div>
       </div>
-      </div>
-
     </div>
   </div>
 </template>
@@ -91,19 +90,19 @@ img {
   margin: 0 auto;
 }
 
-  #web {
-    display: inline;
-  }
-
-  #mobile {
-    display: none;
-  }
-@media (max-width: 768px) {
-  img {
-  width: 100%;
-  height: 200px;
-  margin: 0 auto;
+#web {
+  display: inline;
 }
+
+#mobile {
+  display: none;
+}
+@media (max-width: 968px) {
+  img {
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+  }
   #web {
     display: none;
   }

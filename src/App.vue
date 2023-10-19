@@ -13,17 +13,16 @@ import FooterBanner from "./components/FooterBanner.vue";
 </script>
 
 <template>
-  <!-- <Frame4 /> -->
   <Hero />
   <!-- <Category /> -->
   <!-- <OurLove /> -->
   <!-- <PopularProduct /> -->
   <!-- <Offer /> -->
   <Spotlight />
-  <!-- <About /> -->
-  <!-- <OurProducts /> -->
+  <About />
+  <OurProducts />
   <Featured />
-  <!-- <FooterBanner /> -->
+  <FooterBanner />
 </template>
 
 <style scoped></style>
