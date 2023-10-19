@@ -7,6 +7,7 @@
         <div class="text-wrapper-3">With Crazy Deals!</div>
       </div>
     </div>
+
     <div class="div">
       <img class="img-2" alt="Frame" src="../images/f-2.svg" />
       <div class="div-2">
@@ -14,18 +15,20 @@
         <div class="text-wrapper-3">3-5 Weekdays</div>
       </div>
     </div>
+
     <div class="div">
-      <img class="class" alt="Frame" src="../images/f-3.svg" />
-      <div class="div-3">
+      <img class="img-2" alt="Frame" src="../images/f-3.svg" />
+      <div class="div-2">
         <div class="text-wrapper-2">Free Returns</div>
-        <p class="text-wrapper-3">Free Pickup within 48 hours</p>
+        <div class="text-wrapper-3">Free Pickup within 48 hours</div>
       </div>
     </div>
+
     <div class="div">
-      <img class="class" alt="Frame" src="../images/f-4.svg" />
+      <img class="img-2" alt="Frame" src="../images/f-4.svg" />
       <div class="div-2">
         <div class="text-wrapper-2">Customer Support</div>
-        <div class="text-wrapper-4">Support@wheatend.com</div>
+        <div class="text-wrapper-3">Support@wheatend.com</div>
       </div>
     </div>
   </div>
@@ -102,14 +105,6 @@ export default {
   width: 17px;
 }
 
-.frame .vector-2 {
-  height: 38px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 26px;
-}
-
 .frame .text-wrapper {
   color: #000000;
   font-family: "Roboto-Bold", Helvetica;
@@ -166,16 +161,6 @@ export default {
   width: 48px;
 }
 
-.frame .div-3 {
-  align-items: flex-start;
-  display: inline-flex;
-  flex: 0 0 auto;
-  flex-direction: column;
-  gap: 4px;
-  margin-right: -16.25px;
-  position: relative;
-}
-
 .frame .text-wrapper-4 {
   color: #000000;
   font-family: "Inter-Regular", Helvetica;
@@ -189,34 +174,26 @@ export default {
 }
 @media (max-width: 1200px) {
   .frame {
-    flex-direction: column;
+    flex-wrap: wrap;
     width: 100%;
   }
   .frame .div {
     flex-direction: column;
-    width: 100%;
+    width: 50%;
   }
   .frame .div-2 {
     align-items: center;
-    margin-top: 10px;
     width: 100%;
-  }
-  .frame .div-3 {
-    align-items: center;
-    margin-top: 10px;
-    width: 100%;
-  }
-  .frame .img-2 {
-    margin: 0 auto;
   }
   .frame .text-wrapper-2 {
-    margin: 0 auto;
+    font-size: 16px;
   }
   .frame .text-wrapper-3 {
-    margin: 0 auto;
+    font-size: 14px;
   }
-  .frame .text-wrapper-4 {
-    margin: 0 auto;
+  .frame .img-2 {
+    height: 40px;
+    width: 40px;
   }
 }
 </style>
