@@ -13,8 +13,8 @@ import Button from "./Button.vue";
           alt="..."
         />
         <div class="carousel-item-inner">
-          <h3 class="sub-title">Cookies</h3>
-          <h1 class="title">Wheatend Choco Almond</h1>
+          <!-- <h3 class="sub-title">Cookies</h3>
+          <h1 class="title">Wheatend Choco Almond</h1> -->
           <Button />
         </div>
       </div>
@@ -25,8 +25,8 @@ import Button from "./Button.vue";
           alt="..."
         />
         <div class="carousel-item-inner">
-          <h3 class="sub-title">Cookies</h3>
-          <h1 class="title">Wheatend Choco Almond</h1>
+          <!-- <h3 class="sub-title">Cookies</h3>
+          <h1 class="title">Wheatend Choco Almond</h1> -->
           <Button />
         </div>
       </div>
@@ -67,19 +67,23 @@ import Button from "./Button.vue";
   height: 498px;
   flex-direction: column;
   align-items: center;
-  width: 1400px;
+  max-width: 1400px;
+  width: 100%;
   margin: 0 auto;
+  padding: 0 2rem;
   gap: 40px;
   flex-shrink: 0;
 }
 .carousel-inner {
   border-radius: 30px;
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   height: 498px;
 }
 .carousel-item {
   position: relative;
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   height: 498px;
   border-radius: 30px;
   overflow: hidden;
@@ -89,7 +93,8 @@ import Button from "./Button.vue";
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
+  padding-bottom: 2rem;
   width: fit-content;
   margin-left: 120px;
 }
@@ -117,7 +122,9 @@ import Button from "./Button.vue";
 }
 .carousel-item-img {
   position: absolute;
-  /* opacity: 0.5; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   z-index: -10;
 }
 .carousel-control-icons {
@@ -152,6 +159,42 @@ import Button from "./Button.vue";
   background-position: center;
   width: 20px;
   height: 20px;
+}
+@media (max-width: 768px) {
+  .carousel {
+    height: 300px;
+  }
+  .carousel-inner {
+    height: 300px;
+  }
+  .carousel-item {
+    height: 300px;
+  }
+  .carousel-item-inner {
+    width: 100%;
+    margin-left: 0px;
+    padding-bottom: 0px;
+  }
+  .sub-title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .title {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .carousel-control-icons {
+    height: 30px;
+    width: 30px;
+  }
+  .carousel-control-next-icon {
+    width: 15px;
+    height: 15px;
+  }
+  .carousel-control-prev-icon {
+    width: 15px;
+    height: 15px;
+  }
 }
 </style>
 
