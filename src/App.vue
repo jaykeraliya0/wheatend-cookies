@@ -9,6 +9,7 @@ import OurProducts from "./components/OurProducts.vue";
 import Spotlight from "./components/Spotlight.vue";
 import About from "./components/About.vue";
 import Featured from "./components/Featured.vue";
+import FooterBanner from "./components/FooterBanner.vue";
 </script>
 
 <template>
@@ -22,6 +23,7 @@ import Featured from "./components/Featured.vue";
   <About />
   <OurProducts />
   <Featured />
+  <FooterBanner />
 </template>
 
 <style scoped></style>
