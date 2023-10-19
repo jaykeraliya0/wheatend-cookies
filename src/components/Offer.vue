@@ -11,13 +11,6 @@
           vegetable proteins is born.
         </p>
       </div>
-      <div class="time">
-        05
-        <span> : </span>
-        45
-        <span> : </span>
-        59
-      </div>
     </div>
     <div id="carouselExample2" class="carousel slide">
       <div class="carousel-inner">
@@ -61,7 +54,8 @@
 <style scoped>
 .wrapper {
   width: 100%;
-  margin: 7rem auto;
+  margin: 0 auto;
+  margin-top: 7rem;
   padding: 5rem;
   background: #1c0b03;
   background: linear-gradient(
@@ -82,24 +76,7 @@
   margin: 0 auto;
   text-align: center;
 }
-.title h1 {
-  color: #fff;
-  text-align: center;
-  font-family: Cambon;
-  font-size: 44px;
-  font-style: normal;
-  font-weight: 250;
-  line-height: 46px; /* 104.545% */
-}
-.title h1 span {
-  color: #ffd600;
-  text-align: center;
-  font-family: Cambon;
-  font-size: 54px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 46px; /* 85.185% */
-}
+
 .description {
   width: 100%;
   max-width: 600px;
@@ -176,6 +153,9 @@
   right: -43px;
 }
 @media (max-width: 768px) {
+  .wrapper {
+    padding: 2rem;
+  }
   .carousel {
     margin: 5rem auto;
     z-index: 10;
